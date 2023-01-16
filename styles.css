@@ -4,7 +4,9 @@ body {
 }
 
 #menu {
-    background-color: yellow;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
     width: 1366px;
     height: 675px;
 
@@ -14,4 +16,16 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     /* End styles being used to center the menu */
+}
+
+#menu-header {
+    /* height: 96px; */
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 96px;
+}
+
+#menu-content {
+    background-image: url("../images/white-waves.png");
+    height: 100%;
 }
