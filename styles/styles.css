@@ -1,1 +1,17 @@
- body { background-color: yellowgreen; }
+body {
+    background-color: yellowgreen;
+    margin: 0px;
+}
+
+#menu {
+    background-color: yellow;
+    width: 1366px;
+    height: 675px;
+
+    /* Styles being used to center the menu */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* End styles being used to center the menu */
+}
