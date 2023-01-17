@@ -5,41 +5,21 @@ body {
     margin: 0px;
 }
 
-#menu-container {
-    /* Styles used to center the menu container */
+#menu {
+    /* Size the menu */
+    width: 1366px;
+    height: 675px;
+
+    /* Center the menu in the viewable area */
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /**/
 
+    /* Set flex behavior for the container/children */
     display: flex;
     flex-flow: column;
-    width: 1366px;
-    height: 675px;
     background-color: white;
-}
-
-#header-outer-dive {
-    display: flex;
-}
-
-#menu-header {
-    /* display: flex;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 96px; */
-    height: 96px;
-    /* height is 96px */
-
-    /* justify-content: space-between;
-    align-items: baseline; */
-}
-
-#header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
 }
 
 #mihealth-logo {
