@@ -3,26 +3,30 @@ body {
     margin: 0px;
 }
 
-#entire-menu {
-    background-color: white;
-    display: flex;
-    flex-flow: column;
-    width: 1366px;
-    height: 675px;
-
-    /* Styles being used to center the menu */
+#menu-container {
+    /* Styles used to center the menu container */
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* End styles being used to center the menu */
+    /**/
+
+    display: flex;
+    flex-flow: column;
+    width: 1366px;
+    height: 675px;
+    background-color: white;
 }
 
 #menu-header {
-    /* height: 96px; */
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 96px;
+    flex-basis: 96px; /* height is 96px */
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 #menu-content {
