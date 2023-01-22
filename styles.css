@@ -6,14 +6,18 @@ body {
 }
 
 .menu-head {
-    padding: 35px 85px;
+    padding: 34px 85px;
     background-color: white;
+    display: flex;
+    align-items: baseline;
 }
 
-img.logo {
-    /* display block to get rid of extra empty */
-    /* pixels underneath the image */
-    display: block;
+.nav-meals {
+    display: flex;
+}
+
+.nav-meal {
+    display: flex;
 }
 
 .menu-body{
