@@ -1,13 +1,19 @@
 body {
     background-color: lightblue;
-    margin: 0px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
 .menu-head {
-    margin-top: 50px;
+    padding: 35px 85px;
     background-color: white;
+}
+
+img.logo {
+    /* display block to get rid of extra empty */
+    /* pixels underneath the image */
+    display: block;
 }
 
 .menu-body{
