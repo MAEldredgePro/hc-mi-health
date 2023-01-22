@@ -25,6 +25,7 @@ body {
 }
 
 .menu-body {
+    padding: 85px;
     background-color: #e0e0e0;
     display: flex;
 }
@@ -34,9 +35,10 @@ body {
 }
 
 .menu-meal {
+    margin: 0px 6px;
     background-color: lightyellow;
-    height: 410px;
     width: 275px;
+    height: 410px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
