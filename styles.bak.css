@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+    background-color: yellowgreen;
+    margin: 0px;
+}
+
+#menu {
+    /* Size the menu */
+    width: 1366px;
+    height: 675px;
+
+    /* Center the menu in the viewable area */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Set flex behavior for the container/immediate children */
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+}
+
+#menu-header-container {
+    width: 1366px;
+    height: 110px;
+}
+
+#menu-header-text {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 85px;
+    margin-right: 107px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#mihealth-logo {
+    font-family: 'Sriracha', sans-serif;
+    font-size: 36px;
+}
+
+#mi {
+    color: #ce2020;
+}
+
+#health {
+    color: #8dc728;
+}
+
+#meal-choices {
+    display: flex;
+    width: 395px;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+#menu-content {
+    background-image: url("images/white-waves.png");
+    height: 100%;
+}
