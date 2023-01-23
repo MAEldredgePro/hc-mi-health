@@ -36,25 +36,42 @@ body {
 
 .menu-meal {
     margin: 0px 6px;
-    background-color: lightyellow;
-    width: 275px;
+    width: 273px;
     height: 410px;
+    overflow: hidden;
+    position: relative;
+}
+
+.meal-img {
+    height: 100%;
+}
+
+.meal-labels {
+    position: absolute;
+    width: 85%;
+    bottom: 0px;
+    right: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: flex-end;
 }
 
 .label {
-    padding: 20px;
+    padding: 15px;
 }
 
 .meal-adj {
     background-color: white;
+    bottom: 60px;
+}
+
+.meal-name-rect {
+    background-color: pink;
+    width: 50%;
+    text-align: right;
 }
 
 .meal-name {
     background-color: #8dc728;
-    width: 50%;
-    text-align: right;
+    bottom: 0px;
 }
