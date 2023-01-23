@@ -2,32 +2,58 @@
 
 body {
     background-color: lightblue;
+    margin: 0;
     margin-top: 50px;
     display: flex;
     justify-content: center;
+}
+
+.menu {
+    background-color: orange;
+    width: 1366px;
     font-family: 'Roboto', sans-serif;
 }
 
 .menu-head {
-    padding: 34px 85px;
     background-color: white;
+    height: 96;
+    padding: 35px 85px;
+}
+
+.menu-head-content {
+    margin-right: 22px;
     display: flex;
+    justify-content: space-between;
     align-items: baseline;
 }
 
 .nav-meals {
+    width: 395px;
     display: flex;
-}
-
-.nav-meal {
-    margin: 0px 26px;
+    justify-content: space-between;
     font-size: 16px;
 }
 
 .menu-body {
+    background-image: url("images/white-waves.png");
     padding: 85px;
-    background-color: #e0e0e0;
     display: flex;
+}
+
+.menu-copy {
+    padding-right: 70px;
+}
+
+.copy-title {
+    font-size: 58px;
+}
+
+.copy-body {
+    font-size: 20px;
+}
+
+.copy-footer {
+margin: 10px 0px;
 }
 
 .menu-meals {
